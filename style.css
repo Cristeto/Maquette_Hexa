@@ -1,3 +1,69 @@
-html {
+/* --------------------------------------------------------------- */
+/*
+/* HTML
+/*
+/* --------------------------------------------------------------- */
 
+html {
+ color: #49494a:
+}
+/* --------------------------------------------------------------- */
+/*
+/* HEADER
+/*
+/* --------------------------------------------------------------- */
+#header {
+    margin-bottom: 3%;
+}
+
+#logo_entete {
+    padding-top: 10%;
+}
+
+#menu {
+	position:relative; top:0px; left:0;
+	width:100%;
+	margin-top:12%;
+
+}
+
+#menu ul {
+	list-style-type:none; margin:0; padding:0;
+	display:flex;
+	justify-content:space-between;
+	width:100%;
+}
+
+#menu ul li {
+	position: relative; top: 0; left: 0;
+	margin:0px; padding:0;
+}
+
+#menu ul li a {
+	position: relative; top: 0; left: 0;
+	text-decoration:none;
+	display:block;
+	color:#030c21;
+	text-transform: uppercase;
+	font-weight: 400;
+	font-size: 20px;
+}
+
+a:hover {
+    color: #6aade9 !important;
+}
+
+
+
+/* --------------------------------------------------------------- */
+/*
+/* HOMEPAGE
+/*
+/* --------------------------------------------------------------- */
+#homepage {
+}
+
+.home-image {
+    width: 100%;
+    height: 45rem;
 }
