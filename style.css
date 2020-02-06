@@ -275,3 +275,16 @@ box-shadow: 10px 5px 5px grey;
 #contact hr {
     border-top: 20px solid #b4b5b5 !important;
 }
+
+#contact h2 {
+    text-transform: uppercase;
+    font-weight: 300;
+}
+#contact p {
+    font-weight: 300;
+    font-size: 15px;
+}
+.btn:hover {
+    color: white !important;
+    background-color: #b4b5b5 !important;
+}
