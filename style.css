@@ -288,3 +288,31 @@ box-shadow: 10px 5px 5px grey;
     color: white !important;
     background-color: #b4b5b5 !important;
 }
+/* --------------------------------------------------------------- */
+/*
+/*
+/*FOOTER
+/*
+/* --------------------------------------------------------------- */
+#footer {
+    background-color: #191919;
+}
+.right {
+color: #e1e1e1;
+font-weight: 300;
+text-transform: uppercase;
+margin-bottom: 20%;
+}
+.author {
+    color: #595959;
+    text-transform: uppercase;
+}
+.author b {
+    color: #8b8b8b;
+}
+.power {
+    color: #595959;
+}
+.power b {
+    color: #415d99
+}
