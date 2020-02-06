@@ -11,6 +11,7 @@ body {
 
 }
 
+
 /* --------------------------------------------------------------- */
 /*
 /* HEADER
@@ -170,7 +171,17 @@ a:hover {
 padding-top: 5%;
 padding-bottom: 5%;
 }
-
+#card h2  {
+text-transform: uppercase;
+font-weight: 300;
+}
+#card .title{
+    margin-bottom: 8%;
+}
+#card .title p {
+    font-weight: 300;
+    text-transform: uppercase;
+}
 #card .profil {
     padding: 2%;
 box-shadow: 10px 5px 5px grey;
@@ -194,4 +205,73 @@ box-shadow: 10px 5px 5px grey;
 }
 #card .fab {
     padding-left: 3%
+}
+
+#card hr {
+    border-top: 20px solid #b4b5b5 !important;
+}
+/* --------------------------------------------------------------- */
+/*
+/*
+/*TESTIMONIALS
+/*
+/* --------------------------------------------------------------- */
+
+#testimonials h1 {
+    margin-top: 10%;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+#testimonials p {
+    margin-top: 2%;
+    font-weight: 300;
+    text-transform: uppercase;
+    margin-bottom: 10%;
+}
+#testimonials .small {
+    border-radius: 50%;
+    width: 12%;
+    height :12%;
+}
+#testimonials .large {
+    border-radius: 50%;
+    width: 25%;
+    height: 25%;
+    margin-bottom: 1%;
+}
+#testimonials span {
+    font-size: 24px;
+    font-weight: 400;
+}
+#testimonials hr {
+    margin-top: 2%;
+    margin-bottom: 5%;
+    border: none;
+    border-top: 2px solid #6aade9;
+    color: #333;
+    overflow: visible;
+    text-align: center;
+    height: 5px;
+    width: 53%
+}
+
+#testimonials hr:after {
+    background: #fff;
+    content: 'Jane Lawrence';
+    padding: 0 4px;
+    position: relative;
+    top: -13px;
+    text-transform: uppercase;
+    color: #6aade9;
+    font-weight: 400;
+}
+
+/* --------------------------------------------------------------- */
+/*
+/*
+/*CONTACT
+/*
+/* --------------------------------------------------------------- */
+#contact hr {
+    border-top: 20px solid #b4b5b5 !important;
 }
